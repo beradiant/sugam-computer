@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123d91"><meta name="description" content="बड़ी लिखाई, keyboard shortcuts और एक-एक कदम में कंप्यूटर सीखें। Windows, Chrome, Gmail और WhatsApp की हिंदी गाइड।">
+<title>सुगम · आपका कंप्यूटर साथी</title>
+<link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip" href="#main">सीधे मुख्य सामग्री पर जाएँ</a>
+<header class="topbar"><a class="brand" href="#home" aria-label="सुगम, शुरुआत पर जाएँ"><span class="brand-icon" aria-hidden="true">स</span><span>सुगम<small>आपका कंप्यूटर साथी</small></span></a><div class="accessbar" aria-label="देखने के विकल्प"><button id="smaller" aria-label="लिखाई छोटी करें">A−</button><button id="larger" aria-label="लिखाई बड़ी करें">A+</button><button id="contrast" aria-pressed="false">Contrast</button><button id="settings-open">आवाज़ व सेटिंग</button></div></header>
+<main id="main" tabindex="-1"><div class="loading" role="status">आपकी गाइड खुल रही है…</div></main>
+<footer class="site-footer"><span>अपनी रफ़्तार से, एक कदम आगे।</span><a href="#about">इस गाइड के बारे में</a><span id="offline-status" role="status"></span></footer>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<dialog id="settings" aria-labelledby="settings-title"><div class="dialog-head"><h2 id="settings-title">अपने लिए आसान बनाएँ</h2><button data-close="settings" aria-label="सेटिंग बंद करें">×</button></div><div class="dialog-body"><label for="textsize">लिखाई का आकार <output id="size-label"></output></label><input id="textsize" type="range" min="100" max="180" step="10" value="100"><p>Browser zoom और Windows Magnifier भी साथ इस्तेमाल कर सकते हैं।</p><hr><h3>सुनकर आगे बढ़ें</h3><label for="voice">Hindi आवाज़</label><select id="voice"></select><p id="voice-status" role="status"></p><label for="speed">बोलने की रफ़्तार <output id="speed-label">0.9×</output></label><input id="speed" type="range" min="0.6" max="1.2" step="0.1" value="0.9"><label class="check"><input type="checkbox" id="auto-speech"> अगला कदम खोलने पर अपने-आप सुनाएँ</label><button id="test-voice" class="primary">आवाज़ सुनकर देखें</button><p class="small">पहली आवाज़ आपके उपलब्ध Hindi voices में से चुनी जाती है; Natural / Neural voice उपलब्ध हो तो उसे प्राथमिकता मिलती है। गुणवत्ता और offline उपलब्धता device पर निर्भर है। Online voice इस्तेमाल होने पर text browser के voice provider को भेजा जा सकता है।</p><p class="small">Hindi आवाज़ न मिले तो device की speech language settings देखें। Microsoft Edge का Read aloud भी अलग विकल्प है; उसकी Natural voices इस ऐप में अपने-आप उपलब्ध नहीं होतीं।</p><hr><button id="export-progress">सीखी हुई चीज़ों की Backup लें</button><label for="import-progress">Backup वापस लाएँ</label><input id="import-progress" type="file" accept="application/json,.json"><p id="backup-status" role="status"></p><button id="clear-progress" class="quiet">सीखने की सूची रीसेट करें…</button></div></dialog>
+<dialog id="help-dialog" aria-labelledby="help-title"><div class="dialog-head"><h2 id="help-title">मेरी स्क्रीन अलग है</h2><button data-close="help-dialog" aria-label="मदद बंद करें">×</button></div><div id="help-content" class="dialog-body"></div></dialog>
+<dialog id="visual-dialog" aria-labelledby="visual-title"><div class="dialog-head"><h2 id="visual-title">बड़ा दृश्य</h2><button data-close="visual-dialog" aria-label="बड़ा दृश्य बंद करें">×</button></div><div id="visual-content" class="dialog-body"></div></dialog>
+<noscript><p>यह गाइड चलाने के लिए JavaScript चालू होना चाहिए।</p></noscript>
+<script src="./app.js" defer></script>
+</body></html>
