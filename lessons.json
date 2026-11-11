@@ -1,0 +1,2920 @@
+{
+  "version": 1,
+  "reviewed": "2026-11-11",
+  "categories": [
+    "देखना आसान करें",
+    "शुरुआत और Windows",
+    "इंटरनेट और डिवाइस",
+    "फाइल और फोल्डर",
+    "Chrome और वेब",
+    "Gmail और PDF",
+    "WhatsApp",
+    "Word और टाइपिंग",
+    "मदद और रखरखाव"
+  ],
+  "sources": {
+    "windows": {
+      "title": "Microsoft · Windows shortcuts",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+    },
+    "magnifier": {
+      "title": "Microsoft · Magnifier shortcuts",
+      "url": "https://support.microsoft.com/en-us/accessibility/windows/magnifier/keyboard-shortcuts-for-magnifier"
+    },
+    "chrome": {
+      "title": "Google · Chrome keyboard shortcuts",
+      "url": "https://support.google.com/chrome/answer/157179?hl=en"
+    },
+    "gmail": {
+      "title": "Google · Print Gmail messages",
+      "url": "https://support.google.com/mail/answer/8255?co=GENIE.Platform%3DDesktop&hl=en"
+    },
+    "attachments": {
+      "title": "Google · Gmail attachments",
+      "url": "https://support.google.com/mail/answer/30719?hl=en"
+    },
+    "whatsapp": {
+      "title": "WhatsApp · Windows video calls",
+      "url": "https://faq.whatsapp.com/1862285217468140/?cms_platform=windows-desktop"
+    },
+    "share": {
+      "title": "WhatsApp · Screen sharing",
+      "url": "https://faq.whatsapp.com/1339237313658883/?cms_platform=windows-desktop"
+    },
+    "permissions": {
+      "title": "Microsoft · Camera and microphone",
+      "url": "https://support.microsoft.com/en-us/windows/privacy/windows-camera-microphone-and-privacy"
+    },
+    "phone": {
+      "title": "Microsoft · Phone Link help",
+      "url": "https://support.microsoft.com/phone-link"
+    },
+    "word": {
+      "title": "Microsoft · Word help",
+      "url": "https://support.microsoft.com/word"
+    }
+  },
+  "help": {
+    "unknown": {
+      "title": "यह संदेश सूची में नहीं है",
+      "body": "रुकें और पूरा संदेश पढ़ें। शीर्षक और buttons का नाम लिख लें या निजी जानकारी हटाकर screenshot लें। अनजाना विकल्प न चुनें। Cancel / Close हो तो उससे लौटें; हर dialog में Esc काम नहीं करता।"
+    },
+    "settings-different": {
+      "title": "मेरी Settings अलग दिख रही है",
+      "body": "Settings के search box में feature का English नाम लिखें। Sidebar का स्थान Windows update या window के आकार से बदल सकता है।"
+    },
+    "magnifier-lost": {
+      "title": "ज़ूम में रास्ता खो गया",
+      "body": "Windows + minus से थोड़ा छोटा करें। जरूरत हो तो Windows + Esc से Magnifier बंद करें। Windows + plus से फिर चालू कर सकते हैं।"
+    },
+    "signin": {
+      "title": "Sign in / Verify it is you",
+      "body": "पहचानें कि यह उसी ऐप का अपेक्षित sign-in है। सही account चुनें। Password या OTP केवल असली sign-in screen पर डालें; इस गाइड में कभी नहीं। Account recovery के लिए संबंधित service का आधिकारिक तरीका अपनाएँ।"
+    },
+    "app-missing": {
+      "title": "ऐप खोजने पर नहीं मिलती",
+      "body": "नाम फिर जाँचें। Installed apps में देखें। Install जरूरी हो तो Microsoft Store या ऐप की आधिकारिक वेबसाइट इस्तेमाल करें। अनजान download विज्ञापन न चुनें।"
+    },
+    "unsaved": {
+      "title": "Save changes? / Unsaved changes",
+      "body": "काम रखना हो तो Save चुनें। हटाना हो तभी Don’t save / Discard चुनें। अभी तय न हो तो Cancel चुनकर वापस document देखें।"
+    },
+    "update-shutdown": {
+      "title": "Update and shut down / Restart required",
+      "body": "काम सेव करें और charger लगा रहने दें। Update शुरू हो जाए तो बीच में power न काटें। उपलब्ध हो तो schedule का विकल्प चुन सकते हैं।"
+    },
+    "wifi-password": {
+      "title": "Can’t connect / Incorrect password",
+      "body": "सही network name और password जाँचें। Caps Lock और ENG / HIN देखें। अगली बार सही password डालें। साझा नेटवर्क हो तो मालिक से जानकारी लें।"
+    },
+    "wifi-none": {
+      "title": "Wi-Fi या network नहीं दिखता",
+      "body": "Airplane mode और Wi-Fi की स्थिति देखें। Router / hotspot पास और चालू हो। Settings में Network & internet देखें। Wi-Fi विकल्प बिल्कुल न हो तो device-specific मदद चाहिए।"
+    },
+    "wifi-no-internet": {
+      "title": "Connected, no internet",
+      "body": "Wi-Fi connection और internet अलग बातें हैं। फोन के hotspot में mobile data देखें। Public Wi-Fi हो तो browser में sign-in page अपेक्षित हो सकता है। दूसरे device में भी internet जाँचें।"
+    },
+    "bluetooth-none": {
+      "title": "डिवाइस सूची में नहीं है",
+      "body": "डिवाइस pairing mode में और पास रखें। वह किसी दूसरे फोन से जुड़ा हो तो पहले वहाँ disconnect करें। Battery जाँचें और फिर Add device दोबारा खोलें।"
+    },
+    "pair-code": {
+      "title": "Pairing code / Confirm PIN",
+      "body": "दोनों devices पर code एक जैसा है तभी Pair / Confirm करें। किसी और device का request हो तो Cancel करें।"
+    },
+    "no-sound": {
+      "title": "आवाज़ नहीं आ रही",
+      "body": "Volume, mute और चुना हुआ speaker / headphones जाँचें। Bluetooth headphones से आवाज़ जा रही हो सकती है। Call में WhatsApp की device settings भी देखें।"
+    },
+    "phone-transfer": {
+      "title": "Share में Phone Link नहीं है",
+      "body": "Phone Link और Link to Windows update करें; फोन pairing जाँचें। Feature device और version पर निर्भर है। विकल्प न हो तो USB या दूसरी समर्थित file-transfer विधि इस्तेमाल करें।"
+    },
+    "open-with": {
+      "title": "How do you want to open this file?",
+      "body": "फाइल के type से मेल खाता परिचित ऐप चुनें। PDF के लिए उपलब्ध PDF reader या browser चुन सकते हैं। हमेशा के लिए default तभी बनाएँ जब वही पसंद हो।"
+    },
+    "file-missing": {
+      "title": "सेव की हुई फाइल नहीं मिल रही",
+      "body": "पहले चुना हुआ folder देखें। Browser में Ctrl + J → Show in folder देखें। Downloads और Documents में नाम खोजें। अलग user account / OneDrive में भी जगह चुनी गई हो सकती है।"
+    },
+    "folder-exists": {
+      "title": "नाम पहले से मौजूद है",
+      "body": "अलग नाम दें। बदलना जरूरी न हो तो Cancel करें। बिना जाँच किसी मौजूदा फाइल या folder को replace न करें।"
+    },
+    "extension": {
+      "title": "Changing file extension warning",
+      "body": "Rename में .pdf / .docx जैसे extension बदल गए हों तो No / Cancel करें। केवल नाम बदलें, extension रहने दें।"
+    },
+    "replace-file": {
+      "title": "Replace this file? / File already exists",
+      "body": "दोनों फाइलों को बचाना हो तो Cancel / Skip चुनें और नए नाम से सेव करें। Replace चुनने से पुरानी फाइल बदल सकती है; पहले जाँचें।"
+    },
+    "permission": {
+      "title": "Access denied / Administrator permission",
+      "body": "पहले Cancel करें। Documents जैसे अपने folder में काम करके देखें। Protected system folders की permissions बिना समझे न बदलें।"
+    },
+    "save-permission": {
+      "title": "You don’t have permission to save here",
+      "body": "Save As में अपने Documents या Desktop की जगह चुनें। Managed computer हो तो administrator की मदद लें।"
+    },
+    "disk-full": {
+      "title": "Not enough space",
+      "body": "Transfer रोकें। Settings → System → Storage में जगह देखें। अपनी जरूरी फाइलें जाँचकर सुरक्षित backup बनाएँ; अनजान system files न हटाएँ।"
+    },
+    "permanent-delete": {
+      "title": "Permanently delete? / Too large for Recycle Bin",
+      "body": "यह वापस न आने वाली deletion हो सकती है। Cancel चुनें और पहले backup या सही फाइल की पुष्टि करें।"
+    },
+    "usb-format": {
+      "title": "You need to format the disk",
+      "body": "डेटा रखना हो तो Format दबाने से बचें। Cancel करें। दूसरे port या PC में जाँचें; drive में जरूरी डेटा हो तो विशेषज्ञ मदद लें।"
+    },
+    "usb-busy": {
+      "title": "Device is currently in use",
+      "body": "USB की खुली फाइलें और उससे जुड़ी apps बंद करें। Copy पूरा होने दें, फिर Eject दोबारा करें। चलते transfer में USB न निकालें।"
+    },
+    "chrome-default": {
+      "title": "Make Chrome default / Sign in to Chrome",
+      "body": "Browsing के लिए default या sync जरूरी नहीं। अभी जरूरत न हो तो Skip / Not now / Close से आगे बढ़ें।"
+    },
+    "cookie": {
+      "title": "Cookies / Notifications का संदेश",
+      "body": "जरूरी cookies या अपनी पसंद चुनें। Website notifications की जरूरत न हो तो Block / Don’t allow चुन सकते हैं।"
+    },
+    "ssl": {
+      "title": "Your connection is not private / सुरक्षा चेतावनी",
+      "body": "संदेश को bypass न करें। Address spelling और PC की तारीख जाँचें। इस page पर password या payment जानकारी न डालें; आधिकारिक सुरक्षित रास्ते से वापस जाएँ।"
+    },
+    "offline": {
+      "title": "No internet / You’re offline",
+      "body": "Wi-Fi / hotspot और mobile data देखें। Connection लौटने पर page फिर खोलें। यह गाइड पहली सफल cache के बाद कुछ हिस्सों में offline काम कर सकती है, लेकिन Gmail / calls को internet चाहिए।"
+    },
+    "resubmit": {
+      "title": "Confirm form resubmission",
+      "body": "पहले तय करें कि form दोबारा भेजना है या नहीं। Payment या application हो तो Cancel करके उसकी स्थिति अलग से देखें ताकि duplicate submission न हो।"
+    },
+    "download-blocked": {
+      "title": "Dangerous / Suspicious download blocked",
+      "body": "Warning को सीधे bypass न करें। स्रोत, sender और file की जरूरत जाँचें। आधिकारिक सुरक्षित स्रोत से फाइल लें।"
+    },
+    "download-failed": {
+      "title": "Download failed / Network error",
+      "body": "Internet और खाली storage देखें। उसी trusted source से download फिर शुरू करें। खत्म होने तक फाइल पूरी उपलब्ध नहीं होगी।"
+    },
+    "confidential": {
+      "title": "Confidential mode / Print नहीं मिलता",
+      "body": "Gmail confidential messages में printing और downloading बंद हो सकती है। Sender से आवश्यक अनुमति वाला अलग document माँगें; restriction को bypass न करें।"
+    },
+    "print-blocked": {
+      "title": "Print view नहीं खुली / Pop-up blocked",
+      "body": "Gmail में उस message का More → Print फिर जाँचें। अगर Chrome इसी expected print action का pop-up रोक रहा है, तभी Gmail के लिए उस prompt में अनुमति चुनें। अनजान websites के लिए blanket अनुमति न दें।"
+    },
+    "attachment-large": {
+      "title": "File too large / Upload failed",
+      "body": "ऐप की बताई सीमा देखें। छोटी फाइल चुनें या supported sharing तरीका अपनाएँ। Upload पूरा होने से पहले Send न दबाएँ।"
+    },
+    "missing-attachment": {
+      "title": "Did you mean to attach files?",
+      "body": "फाइल भेजनी थी तो Cancel / Add attachment चुनें। सही attachment लगाकर दोबारा जाँचें।"
+    },
+    "pdf-password": {
+      "title": "PDF password माँग रही है",
+      "body": "Document के sender से सही password लें। इस गाइड में password न लिखें। Password बिना सही document नहीं खुल सकता।"
+    },
+    "pdf-scanned": {
+      "title": "Ctrl + F से शब्द नहीं मिलते",
+      "body": "यह scanned image वाली PDF हो सकती है। Zoom से पढ़ें; text search के लिए OCR वाली accessible copy चाहिए हो सकती है।"
+    },
+    "printer-offline": {
+      "title": "Printer offline / Paper jam / Out of paper",
+      "body": "Printer चालू, connected और paper भरा है या नहीं देखें। Jam हो तो printer की अपनी instructions अपनाएँ। बार-बार Print दबाने से duplicate jobs बन सकती हैं।"
+    },
+    "qr-expired": {
+      "title": "QR code expired / Link failed",
+      "body": "PC में QR refresh करें और अपने फोन से नया code scan करें। दोनों devices में internet जाँचें। केवल अपने PC के QR को link करें।"
+    },
+    "whatsapp-offline": {
+      "title": "Connecting / Phone or computer offline",
+      "body": "Computer का internet जाँचें। WhatsApp को sync होने दें। बार-बार message भेजने से duplicate हो सकते हैं; भेजे हुए message की स्थिति पहले देखें।"
+    },
+    "mic-camera": {
+      "title": "Microphone / Camera access denied",
+      "body": "Windows Settings → Privacy & security → Microphone या Camera देखें। Device access और संबंधित app permissions जाँचें। Webcam shutter हो तो खोलें। दूसरी ऐप camera इस्तेमाल कर रही हो तो उसे बंद करें।"
+    },
+    "call-unavailable": {
+      "title": "Call button नहीं है / Call failed",
+      "body": "सही Windows WhatsApp app और उसकी update जाँचें। Internet, camera और microphone उपलब्ध हों। Work restrictions या unsupported version हो तो उस device की सहायता चाहिए।"
+    },
+    "share-missing": {
+      "title": "Share screen का button नहीं है",
+      "body": "पहले connected video call होना जाँचें। More / तीन dots में देखें। WhatsApp update करें। Audio-only call या अलग version में विकल्प उपलब्ध न हो सकता है।"
+    },
+    "share-warning": {
+      "title": "Screen sharing warning / Start sharing?",
+      "body": "कौन-सी window / screen दिखेगी पढ़ें। अपेक्षित व्यक्ति को वही content दिखाना हो तभी शुरू करें। निजी documents और notifications का ध्यान रखें।"
+    },
+    "share-black": {
+      "title": "सामने वाले को काली / गलत screen दिखती है",
+      "body": "Sharing रोकें। सही window चुनकर फिर शुरू करें; चुना हुआ app खुला रखें। Protected video या content साझा न हो सकता है।"
+    },
+    "office-signin": {
+      "title": "Activate Office / Sign in / Subscription",
+      "body": "Desktop Word के लिए license जरूरी हो सकता है। अपने उपलब्ध account की जाँच करें। बिना जरूरत खरीदारी न करें। उपयुक्त हो तो Word for the web अलग विकल्प है, उसकी screen अलग होगी।"
+    },
+    "hindi-missing": {
+      "title": "सूची में Hindi नहीं है",
+      "body": "Settings → Time & language → Language & region में Hindi और उपयुक्त keyboard जोड़ें। Phonetic या InScript का चुनाव आपकी typing के तरीके पर निर्भर है।"
+    }
+  },
+  "lessons": [
+    {
+      "id": "magnifier",
+      "category": "देखना आसान करें",
+      "title": "स्क्रीन बड़ी करें",
+      "description": "Magnifier चालू करें और ज़ूम बदलें।",
+      "steps": [
+        {
+          "title": "Magnifier खोलें",
+          "keys": [
+            "Win",
+            "+"
+          ],
+          "instruction": "Windows बटन दबाकर रखें और प्लस (+) दबाएँ।",
+          "mouse": "Start में Magnifier खोजकर खोलें।",
+          "expected": "स्क्रीन का हिस्सा बड़ा दिखेगा।",
+          "scene": "magnifier",
+          "target": "Zoom in"
+        },
+        {
+          "title": "अपने हिसाब से बड़ा करें",
+          "keys": [
+            "Win",
+            "+"
+          ],
+          "instruction": "हर बार यही बटन दबाने पर ज़ूम बढ़ेगा। कम करने के लिए Windows और माइनस दबाएँ।",
+          "mouse": "Magnifier की पट्टी में + या − दबाएँ।",
+          "expected": "लिखाई आराम से पढ़ने लायक होगी।",
+          "scene": "magnifier",
+          "target": "Zoom in"
+        },
+        {
+          "title": "ज़रूरत पर बंद करें",
+          "keys": [
+            "Win",
+            "Esc"
+          ],
+          "instruction": "Windows और Esc साथ दबाएँ। इससे केवल Magnifier बंद होगा।",
+          "mouse": "Magnifier की पट्टी का Close दबाएँ।",
+          "expected": "स्क्रीन सामान्य आकार पर लौटेगी।",
+          "scene": "magnifier",
+          "target": "Close"
+        }
+      ],
+      "help": [
+        "magnifier-lost"
+      ],
+      "sources": [
+        "magnifier"
+      ],
+      "tags": "zoom बड़ा magnification plus minus",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "magnifier-settings",
+      "category": "देखना आसान करें",
+      "title": "ज़ूम का तरीका बदलें",
+      "description": "पूरी स्क्रीन, lens और docked view चुनें।",
+      "steps": [
+        {
+          "title": "Magnifier settings खोलें",
+          "keys": [
+            "Win",
+            "Ctrl",
+            "M"
+          ],
+          "instruction": "ये तीनों बटन साथ दबाएँ।",
+          "mouse": "Settings → Accessibility → Magnifier खोलें।",
+          "expected": "Magnifier की settings खुलेंगी।",
+          "scene": "settings",
+          "target": "Magnifier"
+        },
+        {
+          "title": "View चुनें",
+          "keys": [
+            "Tab",
+            "↑ / ↓"
+          ],
+          "instruction": "Tab दबाते हुए View तक जाएँ। उपलब्ध सूची में अपनी पसंद चुनें।",
+          "mouse": "View में Full screen, Lens या Docked चुनें।",
+          "expected": "चुने हुए तरीके से ज़ूम दिखेगा।",
+          "scene": "magnifier",
+          "target": "View"
+        },
+        {
+          "title": "चलते समय बदलना सीखें",
+          "keys": [
+            "Ctrl",
+            "Alt",
+            "F"
+          ],
+          "instruction": "Magnifier चल रहा हो तो Ctrl + Alt + F से full screen; L से lens; D से docked view चुन सकते हैं।",
+          "mouse": "Magnifier की view सूची से बदलें।",
+          "expected": "आपके लिए सुविधाजनक view दिखेगा।",
+          "scene": "magnifier",
+          "target": "View"
+        }
+      ],
+      "help": [
+        "magnifier-lost"
+      ],
+      "sources": [
+        "magnifier"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "text-size",
+      "category": "देखना आसान करें",
+      "title": "पूरे Windows की लिखाई बड़ी करें",
+      "description": "Text size बढ़ाएँ, बिना हर बार ज़ूम किए।",
+      "steps": [
+        {
+          "title": "Settings खोलें",
+          "keys": [
+            "Win",
+            "I"
+          ],
+          "instruction": "Windows और I साथ दबाएँ।",
+          "mouse": "Start → Settings चुनें।",
+          "expected": "Settings खुलेगी।",
+          "scene": "settings",
+          "target": "Accessibility"
+        },
+        {
+          "title": "Text size खोजें",
+          "keys": [
+            "Ctrl",
+            "E"
+          ],
+          "instruction": "Settings के search box पर जाएँ। Text size लिखें और सही result खोलें। Ctrl + E काम न करे तो Tab से search box चुनें।",
+          "mouse": "Accessibility → Text size खोलें।",
+          "expected": "Text size का slider दिखेगा।",
+          "scene": "settings",
+          "target": "Text size"
+        },
+        {
+          "title": "बड़ा करके लागू करें",
+          "keys": [
+            "Tab",
+            "→",
+            "Enter"
+          ],
+          "instruction": "Slider पर Tab से जाएँ। दाईं arrow से आकार बढ़ाएँ। फिर Apply चुनकर Enter दबाएँ।",
+          "mouse": "Slider दाईं ओर खिसकाएँ और Apply दबाएँ।",
+          "expected": "Windows की समर्थित जगहों पर लिखाई बड़ी होगी।",
+          "scene": "settings",
+          "target": "Apply"
+        }
+      ],
+      "help": [
+        "settings-different"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "pointer",
+      "category": "देखना आसान करें",
+      "title": "माउस का तीर बड़ा करें",
+      "description": "बड़ा pointer और साफ़ रंग चुनें।",
+      "steps": [
+        {
+          "title": "Pointer settings खोलें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows दबाएँ, Mouse pointer size लिखें और संबंधित Settings result खोलें।",
+          "mouse": "Settings → Accessibility → Mouse pointer and touch खोलें।",
+          "expected": "Pointer के आकार और रंग के विकल्प दिखेंगे।",
+          "scene": "settings",
+          "target": "Mouse pointer"
+        },
+        {
+          "title": "आकार और रंग चुनें",
+          "keys": [
+            "Tab",
+            "→"
+          ],
+          "instruction": "Size slider पर जाएँ और दाईं arrow दबाएँ। फिर pointer colour के विकल्प देखें।",
+          "mouse": "Size बढ़ाएँ; सफ़ेद, काला, inverted या custom colour चुनें।",
+          "expected": "माउस का तीर आसानी से दिखाई देगा।",
+          "scene": "settings",
+          "target": "Size"
+        }
+      ],
+      "help": [
+        "settings-different"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "contrast",
+      "category": "देखना आसान करें",
+      "title": "ज़्यादा contrast वाली स्क्रीन",
+      "description": "Contrast themes के विकल्प देखें।",
+      "steps": [
+        {
+          "title": "Contrast settings खोजें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows दबाएँ। Contrast themes लिखें और Settings result खोलें।",
+          "mouse": "Settings → Accessibility → Contrast themes खोलें।",
+          "expected": "Theme के विकल्प दिखेंगे।",
+          "scene": "settings",
+          "target": "Contrast themes"
+        },
+        {
+          "title": "Preview देखकर लागू करें",
+          "keys": [
+            "Tab",
+            "↑ / ↓"
+          ],
+          "instruction": "Theme सूची में arrow से चुनें। Preview देखें, फिर Apply दबाएँ। वापसी के लिए None चुन सकते हैं।",
+          "mouse": "पसंद का theme चुनें और Apply दबाएँ।",
+          "expected": "लिखाई और पृष्ठभूमि का फर्क अधिक साफ़ होगा।",
+          "scene": "settings",
+          "target": "Apply"
+        }
+      ],
+      "help": [
+        "settings-different"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "keyboard-basics",
+      "category": "शुरुआत और Windows",
+      "title": "बटन और keyboard समझें",
+      "description": "Tab, Enter, Esc और साथ दबाने वाले बटन।",
+      "steps": [
+        {
+          "title": "अगले विकल्प पर जाएँ",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "Tab से अगला button या field चुनता है। चारों ओर बनी outline देखें।",
+          "mouse": "जिस विकल्प को चुनना हो, उस पर क्लिक करें।",
+          "expected": "Focus की outline अगले विकल्प पर पहुँचेगी।",
+          "scene": "keyboard",
+          "target": "Tab"
+        },
+        {
+          "title": "वापस जाएँ और चुनें",
+          "keys": [
+            "Shift",
+            "Tab"
+          ],
+          "instruction": "Shift दबाए रखकर Tab दबाने से पिछले विकल्प पर लौटते हैं। Enter चुना हुआ button खोलता है।",
+          "mouse": "पिछले विकल्प या button पर क्लिक करें।",
+          "expected": "आप चुने हुए विकल्प को पहचान पाएँगे।",
+          "scene": "keyboard",
+          "target": "Enter"
+        },
+        {
+          "title": "मेन्यू बंद करें",
+          "keys": [
+            "Esc"
+          ],
+          "instruction": "Esc अक्सर खुले मेन्यू या dialog को रद्द करता है। कुछ dialogs में Cancel चुनना पड़ता है।",
+          "mouse": "Cancel या Close दबाएँ।",
+          "expected": "वापस पिछली स्क्रीन मिलेगी; मूल app जरूरी नहीं बंद होगा।",
+          "scene": "keyboard",
+          "target": "Esc"
+        }
+      ],
+      "help": [
+        "unknown"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "basic keyboard tab enter escape",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "open-app",
+      "category": "शुरुआत और Windows",
+      "title": "कोई ऐप खोलें",
+      "description": "Start search से ऐप जल्दी खोलें।",
+      "steps": [
+        {
+          "title": "ऐप खोजें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows बटन दबाएँ और ऐप का नाम लिखें, जैसे Chrome या WhatsApp।",
+          "mouse": "Start खोलें और search box में ऐप का नाम लिखें।",
+          "expected": "ऐप का result दिखेगा।",
+          "scene": "start",
+          "target": "Search"
+        },
+        {
+          "title": "सही result खोलें",
+          "keys": [
+            "↑ / ↓",
+            "Enter"
+          ],
+          "instruction": "Arrow से सही ऐप चुनें और Enter दबाएँ।",
+          "mouse": "ऐप के नाम पर क्लिक करें।",
+          "expected": "ऐप खुलेगा।",
+          "scene": "start",
+          "target": "Open"
+        }
+      ],
+      "help": [
+        "app-missing",
+        "signin"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "start search app chrome whatsapp word",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "switch-app",
+      "category": "शुरुआत और Windows",
+      "title": "खुली हुई ऐप बदलें",
+      "description": "गाइड और असली ऐप के बीच जाएँ।",
+      "steps": [
+        {
+          "title": "दूसरी खिड़की चुनें",
+          "keys": [
+            "Alt",
+            "Tab"
+          ],
+          "instruction": "Alt दबाकर रखें, Tab से इच्छित खिड़की चुनें, फिर Alt छोड़ें।",
+          "mouse": "Taskbar में ऐप का चिह्न दबाएँ।",
+          "expected": "दूसरी ऐप सामने आएगी।",
+          "scene": "desktop",
+          "target": "Task view"
+        },
+        {
+          "title": "वापस गाइड पर आएँ",
+          "keys": [
+            "Alt",
+            "Tab"
+          ],
+          "instruction": "दो खिड़कियों के बीच लौटने के लिए Alt + Tab एक बार दबाएँ।",
+          "mouse": "Browser की इस गाइड वाली खिड़की चुनें।",
+          "expected": "आप इस कदम से आगे जारी रख पाएँगे।",
+          "scene": "desktop",
+          "target": "Task view"
+        }
+      ],
+      "help": [],
+      "sources": [
+        "windows"
+      ],
+      "tags": "switch window guide",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "shutdown",
+      "category": "शुरुआत और Windows",
+      "title": "लैपटॉप बंद करें",
+      "description": "पहले काम सेव करें, फिर Shut down करें।",
+      "steps": [
+        {
+          "title": "खुली फाइलें सेव करें",
+          "keys": [
+            "Ctrl",
+            "S"
+          ],
+          "instruction": "जिस document में काम किया है, वहाँ Ctrl + S दबाएँ। पहली बार Save dialog आए तो नाम और जगह चुनें।",
+          "mouse": "हर ऐप में Save दबाएँ।",
+          "expected": "बदलाव सेव हो जाएँगे।",
+          "scene": "word",
+          "target": "Save"
+        },
+        {
+          "title": "Desktop पर जाएँ",
+          "keys": [
+            "Win",
+            "D"
+          ],
+          "instruction": "Windows और D दबाकर desktop सामने लाएँ।",
+          "mouse": "Taskbar के दाएँ किनारे Show desktop, यदि उपलब्ध हो, दबाएँ।",
+          "expected": "खुली खिड़कियाँ पीछे चली जाएँगी।",
+          "scene": "desktop",
+          "target": "Desktop"
+        },
+        {
+          "title": "Shut down चुनें",
+          "keys": [
+            "Alt",
+            "F4"
+          ],
+          "instruction": "Desktop सामने हो तभी Alt + F4 दबाएँ। सूची में Shut down चुनें, फिर Enter दबाएँ।",
+          "mouse": "Start → Power → Shut down चुनें।",
+          "expected": "Windows बंद होने लगेगा।",
+          "scene": "shutdown",
+          "target": "Shut down"
+        }
+      ],
+      "help": [
+        "unsaved",
+        "update-shutdown"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "power off बंद",
+      "before": "चार्जिंग केबल निकालना shutdown का तरीका नहीं है।",
+      "note": ""
+    },
+    {
+      "id": "restart",
+      "category": "शुरुआत और Windows",
+      "title": "लैपटॉप Restart करें",
+      "description": "दोबारा चालू करके साधारण दिक्कतें ठीक करें।",
+      "steps": [
+        {
+          "title": "काम सेव करके Desktop खोलें",
+          "keys": [
+            "Ctrl",
+            "S"
+          ],
+          "instruction": "खुला काम सेव करें। फिर Windows + D दबाएँ।",
+          "mouse": "Save करके Desktop सामने लाएँ।",
+          "expected": "अब desktop दिखेगा।",
+          "scene": "desktop",
+          "target": "Desktop"
+        },
+        {
+          "title": "Restart चुनें",
+          "keys": [
+            "Alt",
+            "F4"
+          ],
+          "instruction": "Desktop पर Alt + F4 दबाएँ। Arrow से Restart चुनकर Enter दबाएँ।",
+          "mouse": "Start → Power → Restart चुनें।",
+          "expected": "लैपटॉप बंद होकर फिर चालू होगा।",
+          "scene": "shutdown",
+          "target": "Restart"
+        }
+      ],
+      "help": [
+        "unsaved",
+        "update-shutdown"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "lock",
+      "category": "शुरुआत और Windows",
+      "title": "लैपटॉप Lock करें",
+      "description": "थोड़ी देर दूर जाना हो तो।",
+      "steps": [
+        {
+          "title": "स्क्रीन Lock करें",
+          "keys": [
+            "Win",
+            "L"
+          ],
+          "instruction": "दोनों बटन साथ दबाएँ। काम खुला रहेगा।",
+          "mouse": "Start के account menu में Lock, जहाँ उपलब्ध हो, चुनें।",
+          "expected": "Lock screen दिखेगी।",
+          "scene": "lock",
+          "target": "Sign in"
+        },
+        {
+          "title": "वापस Sign in करें",
+          "keys": [
+            "Enter"
+          ],
+          "instruction": "Enter दबाएँ। अपना PIN या password डालें और Enter दबाएँ।",
+          "mouse": "Lock screen खोलकर अपने account में sign in करें।",
+          "expected": "पहले का काम वापस सामने होगा।",
+          "scene": "lock",
+          "target": "PIN"
+        }
+      ],
+      "help": [
+        "signin"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "wifi",
+      "category": "इंटरनेट और डिवाइस",
+      "title": "Wi-Fi से जुड़ें",
+      "description": "नेटवर्क चुनें और password डालें।",
+      "steps": [
+        {
+          "title": "Quick Settings खोलें",
+          "keys": [
+            "Win",
+            "A"
+          ],
+          "instruction": "Windows और A साथ दबाएँ।",
+          "mouse": "Taskbar में Wi-Fi, sound या battery वाला समूह दबाएँ।",
+          "expected": "Quick Settings panel खुलेगा।",
+          "scene": "quick",
+          "target": "Wi-Fi"
+        },
+        {
+          "title": "नेटवर्क सूची खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Wi-Fi बंद हो तो चालू करें। फिर Wi-Fi के साथ वाले arrow पर Tab से जाएँ और Enter दबाएँ।",
+          "mouse": "Wi-Fi tile के पास arrow दबाएँ।",
+          "expected": "पास के नेटवर्क दिखेंगे।",
+          "scene": "wifi",
+          "target": "Show available networks"
+        },
+        {
+          "title": "अपना नेटवर्क चुनें",
+          "keys": [
+            "Tab",
+            "↑ / ↓",
+            "Enter"
+          ],
+          "instruction": "अपने नेटवर्क तक जाएँ, Enter दबाएँ और Connect चुनें।",
+          "mouse": "घर के Wi-Fi का नाम, फिर Connect दबाएँ।",
+          "expected": "Password माँगा जा सकता है।",
+          "scene": "wifi",
+          "target": "Connect"
+        },
+        {
+          "title": "Password डालें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Password field में सही password लिखें। Next पर जाएँ और Enter दबाएँ।",
+          "mouse": "Password लिखें और Next दबाएँ।",
+          "expected": "नेटवर्क के नीचे Connected दिखेगा।",
+          "scene": "wifi",
+          "target": "Next"
+        }
+      ],
+      "help": [
+        "wifi-password",
+        "wifi-none",
+        "wifi-no-internet"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "wifi wi-fi internet network connect",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "bluetooth",
+      "category": "इंटरनेट और डिवाइस",
+      "title": "Bluetooth डिवाइस जोड़ें",
+      "description": "हेडफोन, speaker या mouse pair करें।",
+      "steps": [
+        {
+          "title": "डिवाइस Pairing में रखें",
+          "keys": [],
+          "instruction": "डिवाइस के निर्देश के अनुसार pairing mode चालू करें; केवल power on पर्याप्त नहीं होता।",
+          "mouse": "डिवाइस का pairing button दबाएँ।",
+          "expected": "डिवाइस की बत्ती या आवाज़ pairing बताएगी।",
+          "scene": "bluetooth",
+          "target": "Pairing mode"
+        },
+        {
+          "title": "Bluetooth settings खोलें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows दबाएँ। Bluetooth settings लिखें और संबंधित result खोलें।",
+          "mouse": "Settings → Bluetooth & devices खोलें।",
+          "expected": "Bluetooth का switch और Add device दिखेगा।",
+          "scene": "bluetooth",
+          "target": "Add device"
+        },
+        {
+          "title": "नया डिवाइस खोजें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Bluetooth On करें। Add device चुनें, फिर Bluetooth चुनें।",
+          "mouse": "Add device → Bluetooth दबाएँ।",
+          "expected": "डिवाइस की सूची खुलेगी।",
+          "scene": "bluetooth",
+          "target": "Bluetooth"
+        },
+        {
+          "title": "सही नाम चुनें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "डिवाइस का नाम चुनें। Code दिखे तो दोनों ओर मिलाएँ, फिर Pair या Connect करें।",
+          "mouse": "सही डिवाइस, फिर Pair / Connect / Done दबाएँ।",
+          "expected": "Paired या Connected दिखेगा।",
+          "scene": "bluetooth",
+          "target": "Pair"
+        }
+      ],
+      "help": [
+        "bluetooth-none",
+        "pair-code"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "headphone speaker pair",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "sound",
+      "category": "इंटरनेट और डिवाइस",
+      "title": "आवाज़ और speaker चुनें",
+      "description": "Volume, mute और output देखें।",
+      "steps": [
+        {
+          "title": "आवाज़ की settings खोलें",
+          "keys": [
+            "Win",
+            "I"
+          ],
+          "instruction": "Settings में System → Sound खोलें। Search box में Sound लिखकर भी पहुँच सकते हैं।",
+          "mouse": "Settings → System → Sound खोलें।",
+          "expected": "Volume और Output के विकल्प दिखेंगे।",
+          "scene": "settings",
+          "target": "Sound"
+        },
+        {
+          "title": "सही Output चुनें",
+          "keys": [
+            "Tab",
+            "↑ / ↓"
+          ],
+          "instruction": "Output में Speakers या जुड़े हुए headphones चुनें। Volume slider पर arrow से आवाज़ बदलें।",
+          "mouse": "Output device चुनें और Volume बढ़ाएँ।",
+          "expected": "आवाज़ सही device से सुनाई देगी।",
+          "scene": "settings",
+          "target": "Output"
+        }
+      ],
+      "help": [
+        "no-sound"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "volume speaker headphones mute",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "battery",
+      "category": "इंटरनेट और डिवाइस",
+      "title": "बैटरी देखें",
+      "description": "कितनी battery बची है और charging हो रही है या नहीं।",
+      "steps": [
+        {
+          "title": "Quick Settings खोलें",
+          "keys": [
+            "Win",
+            "A"
+          ],
+          "instruction": "Windows और A दबाएँ। नीचे battery percentage देखें।",
+          "mouse": "Taskbar के battery icon पर mouse रोकें, या उसे दबाएँ।",
+          "expected": "प्रतिशत दिखेगा।",
+          "scene": "quick",
+          "target": "Battery"
+        },
+        {
+          "title": "पूरी जानकारी खोलें",
+          "keys": [
+            "Win",
+            "I"
+          ],
+          "instruction": "System → Power & battery खोलें। Charging और battery level देखें।",
+          "mouse": "Settings → System → Power & battery चुनें।",
+          "expected": "Battery की जानकारी मिलेगी।",
+          "scene": "settings",
+          "target": "Power & battery"
+        }
+      ],
+      "help": [],
+      "sources": [
+        "windows"
+      ],
+      "tags": "charging percentage",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "hotspot",
+      "category": "इंटरनेट और डिवाइस",
+      "title": "फोन के Hotspot से जुड़ें",
+      "description": "फोन का mobile data लैपटॉप पर इस्तेमाल करें।",
+      "steps": [
+        {
+          "title": "फोन में Hotspot चालू करें",
+          "keys": [],
+          "instruction": "फोन में Mobile data और Personal hotspot / Mobile Hotspot चालू करें। नाम और password देख लें।",
+          "mouse": "फोन की Settings में Hotspot खोजें; रास्ता फोन के अनुसार बदलता है।",
+          "expected": "फोन का नेटवर्क नाम तैयार होगा।",
+          "scene": "phone",
+          "target": "Hotspot"
+        },
+        {
+          "title": "लैपटॉप में नेटवर्क चुनें",
+          "keys": [
+            "Win",
+            "A"
+          ],
+          "instruction": "Wi-Fi के arrow से नेटवर्क सूची खोलें और अपने फोन का नाम चुनें।",
+          "mouse": "Wi-Fi सूची में फोन का hotspot चुनें।",
+          "expected": "Connect का विकल्प दिखेगा।",
+          "scene": "wifi",
+          "target": "Connect"
+        },
+        {
+          "title": "जुड़ें और काम के बाद बंद करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Connect चुनें, फोन का hotspot password डालें और Next दबाएँ। काम के बाद फोन में hotspot बंद करें।",
+          "mouse": "Password डालकर जुड़ें। बाद में फोन पर hotspot बंद करें।",
+          "expected": "Connected दिखेगा। Mobile data खर्च होगा।",
+          "scene": "wifi",
+          "target": "Next"
+        }
+      ],
+      "help": [
+        "wifi-password",
+        "wifi-no-internet"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "phone tether internet",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "phone-link",
+      "category": "इंटरनेट और डिवाइस",
+      "title": "Phone Link से फोन जोड़ें",
+      "description": "Android फोन और Windows का शुरुआती setup।",
+      "steps": [
+        {
+          "title": "Phone Link खोलें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows दबाएँ। Phone Link लिखें और ऐप खोलें।",
+          "mouse": "Start → Phone Link खोलें।",
+          "expected": "फोन चुनने या sign in की स्क्रीन मिलेगी।",
+          "scene": "phone",
+          "target": "Phone Link"
+        },
+        {
+          "title": "Android चुनें और निर्देश पढ़ें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Android चुनें। माँगने पर अपना Microsoft account sign in करें।",
+          "mouse": "Android दबाएँ और setup जारी रखें।",
+          "expected": "QR code या pairing के निर्देश मिलेंगे।",
+          "scene": "phone",
+          "target": "Android"
+        },
+        {
+          "title": "फोन से Link करें",
+          "keys": [],
+          "instruction": "फोन में Link to Windows खोलें। QR scan या स्क्रीन पर दिए pairing तरीके से जुड़ें।",
+          "mouse": "फोन की Settings में Link to Windows भी खोज सकते हैं।",
+          "expected": "दोनों devices जुड़ने की पुष्टि करेंगे।",
+          "scene": "phone",
+          "target": "Link to Windows"
+        },
+        {
+          "title": "अनुमतियाँ समझकर चुनें",
+          "keys": [],
+          "instruction": "Notifications, photos, calls जैसे विकल्पों में केवल जिस feature की जरूरत है उसकी अनुमति दें।",
+          "mouse": "हर अनुमति का विवरण पढ़कर अपना विकल्प चुनें।",
+          "expected": "चुनी हुई सुविधाएँ उपलब्ध होंगी।",
+          "scene": "phone",
+          "target": "Permissions"
+        }
+      ],
+      "help": [
+        "app-missing",
+        "signin",
+        "pair-code"
+      ],
+      "sources": [
+        "phone"
+      ],
+      "tags": "android oneplus link windows",
+      "before": "",
+      "note": "फोन और ऐप के version के अनुसार file transfer और दूसरे features बदलते हैं।"
+    },
+    {
+      "id": "phone-file",
+      "category": "इंटरनेट और डिवाइस",
+      "title": "Phone Link से फाइल भेजें",
+      "description": "समर्थित devices पर Share का तरीका।",
+      "steps": [
+        {
+          "title": "पहले pairing जाँचें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Phone Link खोलें और फोन connected होने की पुष्टि करें।",
+          "mouse": "Phone Link में अपने फोन की स्थिति देखें।",
+          "expected": "फोन connected होगा।",
+          "scene": "phone",
+          "target": "Phone Link"
+        },
+        {
+          "title": "लैपटॉप से फोन भेजें",
+          "keys": [
+            "Shift",
+            "F10"
+          ],
+          "instruction": "File Explorer में फाइल चुनें। Shift + F10 से menu खोलें। Share में Phone Link उपलब्ध हो तो चुनें।",
+          "mouse": "फाइल पर right click → Share → Phone Link चुनें।",
+          "expected": "Transfer की स्थिति मिलेगी।",
+          "scene": "files",
+          "target": "Share"
+        },
+        {
+          "title": "फोन से लैपटॉप भेजें",
+          "keys": [],
+          "instruction": "फोन पर फाइल चुनकर Share खोलें। Link to Windows / Send to PC उपलब्ध हो तो अपना PC चुनें।",
+          "mouse": "फोन के Share menu का प्रयोग करें।",
+          "expected": "फाइल मिलने की सूचना आएगी; ऐप बताए हुए folder में देखें।",
+          "scene": "phone",
+          "target": "Send to PC"
+        }
+      ],
+      "help": [
+        "phone-transfer",
+        "wifi-no-internet"
+      ],
+      "sources": [
+        "phone"
+      ],
+      "tags": "transfer android photo",
+      "before": "यह सुविधा हर Android फोन या पुराने app version में उपलब्ध नहीं होती।",
+      "note": ""
+    },
+    {
+      "id": "files-open",
+      "category": "फाइल और फोल्डर",
+      "title": "फाइल और Downloads खोजें",
+      "description": "File Explorer में सही जगह पहुँचें।",
+      "steps": [
+        {
+          "title": "File Explorer खोलें",
+          "keys": [
+            "Win",
+            "E"
+          ],
+          "instruction": "Windows और E दबाएँ।",
+          "mouse": "Taskbar का पीला folder दबाएँ।",
+          "expected": "File Explorer खुलेगा।",
+          "scene": "files",
+          "target": "Home"
+        },
+        {
+          "title": "Downloads पर जाएँ",
+          "keys": [
+            "Alt",
+            "D"
+          ],
+          "instruction": "Address bar में %USERPROFILE%\\Downloads लिखें और Enter दबाएँ।",
+          "mouse": "बाईं ओर Downloads चुनें।",
+          "expected": "डाउनलोड की हुई फाइलें दिखेंगी।",
+          "scene": "files",
+          "target": "Downloads"
+        },
+        {
+          "title": "फाइल खोलें",
+          "keys": [
+            "↑ / ↓",
+            "Enter"
+          ],
+          "instruction": "Arrow से फाइल चुनें। Enter से खोलें। जरूरत हो तो पहला अक्षर लिखकर नाम खोजें।",
+          "mouse": "फाइल पर double click करें।",
+          "expected": "फाइल उससे जुड़े ऐप में खुलेगी।",
+          "scene": "files",
+          "target": "Document.pdf"
+        }
+      ],
+      "help": [
+        "open-with",
+        "file-missing"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "download folder explorer",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "new-folder",
+      "category": "फाइल और फोल्डर",
+      "title": "नया फोल्डर बनाएँ",
+      "description": "अपनी फाइलें व्यवस्थित रखें।",
+      "steps": [
+        {
+          "title": "जगह खोलें",
+          "keys": [
+            "Win",
+            "E"
+          ],
+          "instruction": "File Explorer में Documents या इच्छित जगह खोलें।",
+          "mouse": "File Explorer में सही folder खोलें।",
+          "expected": "चुनी हुई जगह की फाइलें दिखेंगी।",
+          "scene": "files",
+          "target": "Documents"
+        },
+        {
+          "title": "Folder बनाएँ",
+          "keys": [
+            "Ctrl",
+            "Shift",
+            "N"
+          ],
+          "instruction": "तीनों बटन साथ दबाएँ। नया नाम लिखें और Enter दबाएँ।",
+          "mouse": "खाली जगह पर right click → New → Folder चुनें।",
+          "expected": "आपके दिए नाम का folder बनेगा।",
+          "scene": "files",
+          "target": "New folder"
+        }
+      ],
+      "help": [
+        "folder-exists"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "create directory",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "rename",
+      "category": "फाइल और फोल्डर",
+      "title": "फाइल का नाम बदलें",
+      "description": "Rename से पहचानने लायक नाम रखें।",
+      "steps": [
+        {
+          "title": "फाइल चुनें",
+          "keys": [
+            "Win",
+            "E"
+          ],
+          "instruction": "सही folder खोलें। Arrow से फाइल चुनें।",
+          "mouse": "फाइल पर एक बार क्लिक करें।",
+          "expected": "फाइल selected होगी।",
+          "scene": "files",
+          "target": "Document.pdf"
+        },
+        {
+          "title": "नाम बदलें",
+          "keys": [
+            "F2"
+          ],
+          "instruction": "F2 दबाएँ। नाम लिखें और Enter दबाएँ। .pdf या .docx जैसे extension को न बदलें।",
+          "mouse": "Right click → Rename चुनें।",
+          "expected": "नया नाम दिखाई देगा।",
+          "scene": "files",
+          "target": "Rename"
+        }
+      ],
+      "help": [
+        "extension",
+        "folder-exists"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "copy-move",
+      "category": "फाइल और फोल्डर",
+      "title": "फाइल Copy या Move करें",
+      "description": "एक जगह से दूसरी जगह ले जाएँ।",
+      "steps": [
+        {
+          "title": "फाइल चुनें और Copy करें",
+          "keys": [
+            "Ctrl",
+            "C"
+          ],
+          "instruction": "चुनी हुई फाइल पर Ctrl + C दबाएँ। Move करना हो तो Ctrl + X दबाएँ।",
+          "mouse": "Right click में Copy या Cut चुनें।",
+          "expected": "फाइल clipboard में तैयार होगी।",
+          "scene": "files",
+          "target": "Copy"
+        },
+        {
+          "title": "नई जगह खोलें",
+          "keys": [
+            "Alt",
+            "D"
+          ],
+          "instruction": "Destination folder खोलें। उदाहरण: Documents।",
+          "mouse": "चाही हुई जगह का folder खोलें।",
+          "expected": "नई जगह की सूची दिखेगी।",
+          "scene": "files",
+          "target": "Documents"
+        },
+        {
+          "title": "Paste करें",
+          "keys": [
+            "Ctrl",
+            "V"
+          ],
+          "instruction": "Ctrl + V दबाएँ और transfer पूरा होने दें।",
+          "mouse": "Right click → Paste चुनें।",
+          "expected": "फाइल नई जगह दिखेगी। Copy में मूल फाइल वहीं रहेगी।",
+          "scene": "files",
+          "target": "Paste"
+        }
+      ],
+      "help": [
+        "replace-file",
+        "permission",
+        "disk-full"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "cut paste transfer",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "delete-restore",
+      "category": "फाइल और फोल्डर",
+      "title": "हटाएँ और वापस पाएँ",
+      "description": "Delete, Undo और Recycle Bin।",
+      "steps": [
+        {
+          "title": "फाइल ध्यान से चुनें",
+          "keys": [
+            "Delete"
+          ],
+          "instruction": "स्थानीय साधारण फाइल चुनकर Delete दबाएँ। Confirm आए तो नाम जाँचें। Shift + Delete का प्रयोग न करें।",
+          "mouse": "Right click → Delete चुनें।",
+          "expected": "आमतौर पर फाइल Recycle Bin में जाएगी।",
+          "scene": "files",
+          "target": "Delete"
+        },
+        {
+          "title": "गलती हो तो तुरंत Undo करें",
+          "keys": [
+            "Ctrl",
+            "Z"
+          ],
+          "instruction": "उसी File Explorer खिड़की में तुरंत Ctrl + Z दबाएँ।",
+          "mouse": "Right click → Undo Delete, यदि उपलब्ध हो, चुनें।",
+          "expected": "हटाई हुई फाइल वापस आ सकती है।",
+          "scene": "files",
+          "target": "Undo"
+        },
+        {
+          "title": "बाद में Recycle Bin देखें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Start search में Recycle Bin खोजकर खोलें। फाइल चुनें, Shift + F10 दबाएँ और Restore चुनें।",
+          "mouse": "Recycle Bin में फाइल पर right click → Restore चुनें।",
+          "expected": "फाइल पुरानी जगह वापस जाएगी।",
+          "scene": "files",
+          "target": "Restore"
+        }
+      ],
+      "help": [
+        "permanent-delete",
+        "file-missing"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "USB, network या बहुत बड़ी फाइलें सीधे स्थायी रूप से हट सकती हैं। Delete के संदेश को पढ़ें।",
+      "note": ""
+    },
+    {
+      "id": "find-file",
+      "category": "फाइल और फोल्डर",
+      "title": "नाम से फाइल ढूँढें",
+      "description": "सही folder में search करें।",
+      "steps": [
+        {
+          "title": "जिस जगह खोजना है वह खोलें",
+          "keys": [
+            "Win",
+            "E"
+          ],
+          "instruction": "Downloads, Documents या This PC चुनें। This PC की search में अधिक समय लग सकता है।",
+          "mouse": "File Explorer में खोजने वाली जगह खोलें।",
+          "expected": "सही folder सामने होगा।",
+          "scene": "files",
+          "target": "Documents"
+        },
+        {
+          "title": "Search में नाम लिखें",
+          "keys": [
+            "Ctrl",
+            "E"
+          ],
+          "instruction": "Ctrl + E दबाएँ, फाइल के नाम का कुछ हिस्सा लिखें और Enter दबाएँ।",
+          "mouse": "ऊपर दाईं ओर search field में नाम लिखें।",
+          "expected": "मिलते-जुलते results दिखेंगे।",
+          "scene": "files",
+          "target": "Search"
+        },
+        {
+          "title": "सही फाइल पहचानें",
+          "keys": [
+            "↑ / ↓",
+            "Enter"
+          ],
+          "instruction": "नाम, तारीख और जगह देखकर सही फाइल खोलें।",
+          "mouse": "सही result पर double click करें।",
+          "expected": "चुनी हुई फाइल खुलेगी।",
+          "scene": "files",
+          "target": "Document.pdf"
+        }
+      ],
+      "help": [
+        "file-missing"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "usb",
+      "category": "फाइल और फोल्डर",
+      "title": "USB से फाइल कॉपी करें",
+      "description": "Drive पहचानें और सुरक्षित निकालें।",
+      "steps": [
+        {
+          "title": "USB लगाकर पहचानें",
+          "keys": [
+            "Win",
+            "E"
+          ],
+          "instruction": "USB लगाएँ। File Explorer में This PC खोलें और सही drive का नाम देखें।",
+          "mouse": "USB drive को double click करें।",
+          "expected": "USB की फाइलें दिखेंगी।",
+          "scene": "files",
+          "target": "USB drive"
+        },
+        {
+          "title": "Copy और Paste करें",
+          "keys": [
+            "Ctrl",
+            "C"
+          ],
+          "instruction": "फाइल चुनकर Ctrl + C दबाएँ। PC का destination folder खोलकर Ctrl + V दबाएँ।",
+          "mouse": "Copy → destination → Paste करें।",
+          "expected": "Copy पूरा होने पर फाइल PC में दिखेगी।",
+          "scene": "files",
+          "target": "Paste"
+        },
+        {
+          "title": "सुरक्षित निकालें",
+          "keys": [
+            "Shift",
+            "F10"
+          ],
+          "instruction": "Copy पूरा हो जाए और फाइलें बंद हों। This PC में USB चुनें; context menu में Eject चुनें।",
+          "mouse": "USB drive पर right click → Eject चुनें।",
+          "expected": "Safe to remove का संदेश मिले तो USB निकालें।",
+          "scene": "files",
+          "target": "Eject"
+        }
+      ],
+      "help": [
+        "usb-format",
+        "usb-busy",
+        "replace-file"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "chrome-open",
+      "category": "Chrome और वेब",
+      "title": "वेबसाइट खोलें या Search करें",
+      "description": "Address bar से सीधे शुरू करें।",
+      "steps": [
+        {
+          "title": "Chrome खोलें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows दबाएँ, Chrome लिखें, सही ऐप चुनें और Enter दबाएँ।",
+          "mouse": "Chrome का चिह्न खोलें।",
+          "expected": "Chrome खुलेगा।",
+          "scene": "chrome",
+          "target": "Address bar"
+        },
+        {
+          "title": "पता या सवाल लिखें",
+          "keys": [
+            "Ctrl",
+            "L"
+          ],
+          "instruction": "Ctrl + L दबाएँ। वेबसाइट का पता या अपना सवाल लिखें और Enter दबाएँ।",
+          "mouse": "ऊपर address bar पर क्लिक करके लिखें।",
+          "expected": "वेबसाइट या search results खुलेंगे।",
+          "scene": "chrome",
+          "target": "Address bar"
+        },
+        {
+          "title": "लिंक खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Tab से इच्छित link पर जाएँ और Enter दबाएँ। Shift + Tab से पीछे जाएँ।",
+          "mouse": "इच्छित result पर क्लिक करें।",
+          "expected": "चुना हुआ पन्ना खुलेगा।",
+          "scene": "chrome",
+          "target": "Search result"
+        }
+      ],
+      "help": [
+        "chrome-default",
+        "cookie",
+        "ssl",
+        "offline"
+      ],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "browser google search address url",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "chrome-zoom",
+      "category": "Chrome और वेब",
+      "title": "वेब पन्ने की लिखाई बड़ी करें",
+      "description": "Chrome zoom, Windows zoom से अलग है।",
+      "steps": [
+        {
+          "title": "पन्ना बड़ा करें",
+          "keys": [
+            "Ctrl",
+            "+"
+          ],
+          "instruction": "Chrome में Ctrl और plus दबाएँ। जितनी जरूरत हो दोहराएँ।",
+          "mouse": "Chrome menu → Zoom में + दबाएँ।",
+          "expected": "इस वेबसाइट की सामग्री बड़ी होगी।",
+          "scene": "chrome",
+          "target": "Zoom"
+        },
+        {
+          "title": "कम या सामान्य करें",
+          "keys": [
+            "Ctrl",
+            "−"
+          ],
+          "instruction": "कम करने के लिए Ctrl और minus दबाएँ। सामान्य आकार के लिए Ctrl + 0 दबाएँ।",
+          "mouse": "Zoom में − दबाएँ; 100% सामान्य आकार है।",
+          "expected": "आपके लिए सही आकार दिखेगा।",
+          "scene": "chrome",
+          "target": "Zoom"
+        }
+      ],
+      "help": [],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "zoom text size",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "chrome-tabs",
+      "category": "Chrome और वेब",
+      "title": "Tabs खोलें और बदलें",
+      "description": "कई पन्नों के बीच काम करें।",
+      "steps": [
+        {
+          "title": "नई Tab खोलें",
+          "keys": [
+            "Ctrl",
+            "T"
+          ],
+          "instruction": "Ctrl + T दबाएँ। नया पता लिखकर Enter दबाएँ।",
+          "mouse": "ऊपर tabs के पास + दबाएँ।",
+          "expected": "नई tab खुलेगी।",
+          "scene": "chrome",
+          "target": "New tab"
+        },
+        {
+          "title": "Tab बदलें",
+          "keys": [
+            "Ctrl",
+            "Tab"
+          ],
+          "instruction": "Ctrl + Tab से अगली tab; Ctrl + Shift + Tab से पिछली tab चुनें।",
+          "mouse": "ऊपर tab के नाम पर क्लिक करें।",
+          "expected": "दूसरा पन्ना सामने आएगा।",
+          "scene": "chrome",
+          "target": "New tab"
+        },
+        {
+          "title": "बंद करें या वापस लाएँ",
+          "keys": [
+            "Ctrl",
+            "W"
+          ],
+          "instruction": "Ctrl + W वर्तमान tab बंद करता है। गलती से बंद हो तो Ctrl + Shift + T दबाएँ।",
+          "mouse": "Tab का close दबाएँ।",
+          "expected": "पिछली tab सामने होगी या बंद tab वापस खुलेगी।",
+          "scene": "chrome",
+          "target": "Close tab"
+        }
+      ],
+      "help": [
+        "unsaved"
+      ],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "chrome-back",
+      "category": "Chrome और वेब",
+      "title": "पिछले पन्ने पर लौटें",
+      "description": "Back, Forward और Reload सीखें।",
+      "steps": [
+        {
+          "title": "पिछला पन्ना खोलें",
+          "keys": [
+            "Alt",
+            "←"
+          ],
+          "instruction": "Alt और बाईं arrow दबाएँ।",
+          "mouse": "ऊपर Back arrow दबाएँ।",
+          "expected": "पहले देखा हुआ पन्ना खुलेगा।",
+          "scene": "chrome",
+          "target": "Back"
+        },
+        {
+          "title": "वापस आगे जाएँ",
+          "keys": [
+            "Alt",
+            "→"
+          ],
+          "instruction": "Alt और दाईं arrow दबाएँ।",
+          "mouse": "Forward arrow दबाएँ।",
+          "expected": "अगला पन्ना लौटेगा।",
+          "scene": "chrome",
+          "target": "Forward"
+        },
+        {
+          "title": "पन्ना फिर लोड करें",
+          "keys": [
+            "Ctrl",
+            "R"
+          ],
+          "instruction": "लोड अटक गया हो तो Ctrl + R दबाएँ। भरे हुए form में पहले लिखी जानकारी का ध्यान रखें।",
+          "mouse": "Reload button दबाएँ।",
+          "expected": "पन्ना फिर से लोड होगा।",
+          "scene": "chrome",
+          "target": "Reload"
+        }
+      ],
+      "help": [
+        "resubmit",
+        "offline"
+      ],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "chrome-find",
+      "category": "Chrome और वेब",
+      "title": "पन्ने में शब्द ढूँढें",
+      "description": "लंबे पन्ने में जल्दी सही जगह पहुँचें।",
+      "steps": [
+        {
+          "title": "Find खोलें",
+          "keys": [
+            "Ctrl",
+            "F"
+          ],
+          "instruction": "Ctrl + F दबाकर खोजने वाला शब्द लिखें।",
+          "mouse": "Chrome menu → Find and edit → Find चुनें, यदि दिखे।",
+          "expected": "मिलते हुए शब्द highlight होंगे।",
+          "scene": "chrome",
+          "target": "Find"
+        },
+        {
+          "title": "अगला मिलान चुनें",
+          "keys": [
+            "Enter"
+          ],
+          "instruction": "Enter से अगला; Shift + Enter से पिछला मिलान चुनें। Esc से Find बंद करें।",
+          "mouse": "Find box के arrows दबाएँ।",
+          "expected": "पन्ना संबंधित शब्द तक जाएगा।",
+          "scene": "chrome",
+          "target": "Find"
+        }
+      ],
+      "help": [],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "chrome-downloads",
+      "category": "Chrome और वेब",
+      "title": "डाउनलोड की हुई फाइल पाएँ",
+      "description": "Download history और folder खोलें।",
+      "steps": [
+        {
+          "title": "Downloads खोलें",
+          "keys": [
+            "Ctrl",
+            "J"
+          ],
+          "instruction": "Chrome में Ctrl + J दबाएँ।",
+          "mouse": "Chrome menu → Downloads चुनें।",
+          "expected": "Downloads की सूची खुलेगी।",
+          "scene": "downloads",
+          "target": "Downloads"
+        },
+        {
+          "title": "फाइल या folder खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "पूरी हुई download चुनें। Show in folder से Windows वाला folder खुलेगा।",
+          "mouse": "फाइल या Show in folder दबाएँ।",
+          "expected": "फाइल या उसकी जगह खुलेगी।",
+          "scene": "downloads",
+          "target": "Show in folder"
+        }
+      ],
+      "help": [
+        "download-blocked",
+        "download-failed",
+        "file-missing"
+      ],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "pdf downloaded",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "chrome-bookmark",
+      "category": "Chrome और वेब",
+      "title": "पसंदीदा वेबसाइट सेव करें",
+      "description": "Bookmark से बार-बार पता न लिखना पड़े।",
+      "steps": [
+        {
+          "title": "वेबसाइट Bookmark करें",
+          "keys": [
+            "Ctrl",
+            "D"
+          ],
+          "instruction": "सही पन्ने पर Ctrl + D दबाएँ। नाम पढ़ें और Done चुनें।",
+          "mouse": "Address bar के star पर क्लिक करें, फिर Done दबाएँ।",
+          "expected": "Bookmark सेव होगा।",
+          "scene": "chrome",
+          "target": "Bookmark"
+        },
+        {
+          "title": "Bookmarks दिखाएँ",
+          "keys": [
+            "Ctrl",
+            "Shift",
+            "B"
+          ],
+          "instruction": "इससे bookmarks bar दिखाई या छिपाई जाती है।",
+          "mouse": "Chrome menu में Bookmarks and lists देखें।",
+          "expected": "सेव किए हुए पन्ने चुन सकेंगे।",
+          "scene": "chrome",
+          "target": "Bookmarks bar"
+        }
+      ],
+      "help": [],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "gmail-open",
+      "category": "Gmail और PDF",
+      "title": "Gmail खोलें और मेल खोजें",
+      "description": "Inbox में सही संदेश तक पहुँचें।",
+      "steps": [
+        {
+          "title": "Gmail खोलें",
+          "keys": [
+            "Ctrl",
+            "L"
+          ],
+          "instruction": "Chrome में mail.google.com लिखें और Enter दबाएँ। जरूरत हो तो सही Google account में sign in करें।",
+          "mouse": "Gmail वेबसाइट खोलें।",
+          "expected": "आपका Inbox दिखेगा।",
+          "scene": "gmail",
+          "target": "Inbox"
+        },
+        {
+          "title": "मेल Search करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Search mail field पर Tab से जाएँ। भेजने वाले का नाम या विषय लिखकर Enter दबाएँ।",
+          "mouse": "ऊपर Search mail में लिखें।",
+          "expected": "संबंधित ईमेल दिखेंगे।",
+          "scene": "gmail",
+          "target": "Search mail"
+        },
+        {
+          "title": "सही संदेश खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "सही subject तक जाएँ और Enter दबाएँ।",
+          "mouse": "ईमेल के subject पर क्लिक करें।",
+          "expected": "संदेश की सामग्री दिखेगी।",
+          "scene": "gmail",
+          "target": "Message"
+        }
+      ],
+      "help": [
+        "signin",
+        "offline"
+      ],
+      "sources": [
+        "gmail"
+      ],
+      "tags": "",
+      "before": "",
+      "note": "इस गाइड में Gmail के वैकल्पिक single-letter shortcuts पर निर्भर नहीं किया गया है।"
+    },
+    {
+      "id": "gmail-pdf",
+      "category": "Gmail और PDF",
+      "title": "ईमेल को PDF में सेव करें",
+      "description": "सिर्फ संदेश या पूरी बातचीत चुनें।",
+      "steps": [
+        {
+          "title": "सही ईमेल खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Gmail में सेव करने वाला ईमेल खोलें। एक ही conversation में कई messages हों तो इच्छित message खोलें।",
+          "mouse": "ईमेल का subject खोलें।",
+          "expected": "संदेश दिखेगा।",
+          "scene": "gmail",
+          "target": "Message"
+        },
+        {
+          "title": "ईमेल का Print विकल्प खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "उस message के More menu तक Tab से जाएँ। Print चुनें। पूरी conversation के लिए Print all चुनें।",
+          "mouse": "Message के तीन dots → Print; पूरी बातचीत के लिए Print all दबाएँ।",
+          "expected": "Message की print view खुलेगी।",
+          "scene": "gmail",
+          "target": "Print"
+        },
+        {
+          "title": "Print dialog न खुले तो खोलें",
+          "keys": [
+            "Ctrl",
+            "P"
+          ],
+          "instruction": "केवल message की print view सामने हो और dialog न खुला हो तभी Ctrl + P दबाएँ।",
+          "mouse": "Print view का Print button दबाएँ।",
+          "expected": "Chrome का print preview दिखेगा।",
+          "scene": "print",
+          "target": "Destination"
+        },
+        {
+          "title": "Save as PDF चुनें",
+          "keys": [
+            "Tab",
+            "↑ / ↓"
+          ],
+          "instruction": "Destination सूची खोलकर Save as PDF चुनें। Preview में सही message जाँचें।",
+          "mouse": "Destination → Save as PDF चुनें।",
+          "expected": "नीचे Save button दिखेगा।",
+          "scene": "print",
+          "target": "Save as PDF"
+        },
+        {
+          "title": "नाम और जगह चुनें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Save दबाएँ। Windows dialog में File name लिखें, सही folder चुनें, फिर Save दबाएँ।",
+          "mouse": "File name और folder चुनकर Save दबाएँ।",
+          "expected": "PDF चुनी हुई जगह पर सेव होगी।",
+          "scene": "save",
+          "target": "Save"
+        }
+      ],
+      "help": [
+        "confidential",
+        "print-blocked",
+        "replace-file",
+        "file-missing",
+        "save-permission"
+      ],
+      "sources": [
+        "gmail",
+        "chrome"
+      ],
+      "tags": "email mail download pdf print",
+      "before": "",
+      "note": "Download message से .eml मिलती है; PDF के लिए Print → Save as PDF का प्रयोग करें।"
+    },
+    {
+      "id": "gmail-attachment",
+      "category": "Gmail और PDF",
+      "title": "ईमेल का Attachment डाउनलोड करें",
+      "description": "PDF या दूसरी संलग्न फाइल सेव करें।",
+      "steps": [
+        {
+          "title": "Attachment तक जाएँ",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "Gmail में संदेश खोलें और नीचे attached file तक जाएँ।",
+          "mouse": "Message के नीचे attachment देखें।",
+          "expected": "Attachment का नाम दिखेगा।",
+          "scene": "gmail",
+          "target": "Attachment"
+        },
+        {
+          "title": "Download चुनें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Attachment का Download button चुनें और Enter दबाएँ।",
+          "mouse": "Attachment पर Download arrow दबाएँ।",
+          "expected": "Download शुरू होगी।",
+          "scene": "gmail",
+          "target": "Download"
+        },
+        {
+          "title": "फाइल ढूँढें",
+          "keys": [
+            "Ctrl",
+            "J"
+          ],
+          "instruction": "Chrome downloads में पूरी हुई फाइल देखें। Show in folder से जगह खोलें।",
+          "mouse": "Downloads list में फाइल देखें।",
+          "expected": "आप फाइल खोल सकेंगे।",
+          "scene": "downloads",
+          "target": "Show in folder"
+        }
+      ],
+      "help": [
+        "confidential",
+        "download-blocked",
+        "download-failed"
+      ],
+      "sources": [
+        "attachments",
+        "chrome"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "gmail-compose",
+      "category": "Gmail और PDF",
+      "title": "नया ईमेल और Attachment भेजें",
+      "description": "पता, विषय, संदेश और फाइल जाँचकर भेजें।",
+      "steps": [
+        {
+          "title": "Compose खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Gmail में Compose button चुनें।",
+          "mouse": "बाईं ओर Compose दबाएँ।",
+          "expected": "New Message खुलेगा।",
+          "scene": "gmail-compose",
+          "target": "Compose"
+        },
+        {
+          "title": "पता और संदेश लिखें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "To में पूरा email address लिखें। Subject और message field में Tab से जाएँ और लिखें।",
+          "mouse": "To, Subject और message में जानकारी भरें।",
+          "expected": "ईमेल तैयार दिखेगा।",
+          "scene": "gmail-compose",
+          "target": "To"
+        },
+        {
+          "title": "फाइल जोड़ें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Attach files button चुनें। Windows file picker में फाइल चुनकर Open दबाएँ।",
+          "mouse": "Paperclip → फाइल चुनें → Open दबाएँ।",
+          "expected": "Upload पूरी होने पर फाइल का नाम दिखेगा।",
+          "scene": "open-file",
+          "target": "Open"
+        },
+        {
+          "title": "जाँचकर भेजें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Recipient, subject, message और attachment जाँचें। सही हो तभी Send चुनें।",
+          "mouse": "Send button दबाएँ।",
+          "expected": "Message sent की पुष्टि मिलेगी।",
+          "scene": "gmail-compose",
+          "target": "Send"
+        }
+      ],
+      "help": [
+        "attachment-large",
+        "missing-attachment",
+        "signin",
+        "offline"
+      ],
+      "sources": [
+        "attachments"
+      ],
+      "tags": "",
+      "before": "यह अभ्यास ऐप कोई असली ईमेल नहीं भेजती। असली Gmail में भेजने से पहले recipient ज़रूर जाँचें।",
+      "note": ""
+    },
+    {
+      "id": "pdf-read",
+      "category": "Gmail और PDF",
+      "title": "PDF पढ़ें और बड़ा करें",
+      "description": "Chrome PDF viewer में page और zoom।",
+      "steps": [
+        {
+          "title": "PDF खोलें",
+          "keys": [
+            "Enter"
+          ],
+          "instruction": "File Explorer में PDF चुनकर Enter दबाएँ। दूसरे ऐप में खुले तो उसके zoom controls देखें।",
+          "mouse": "PDF पर double click करें।",
+          "expected": "PDF viewer खुलेगा।",
+          "scene": "pdf",
+          "target": "Document.pdf"
+        },
+        {
+          "title": "Zoom और page चुनें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "Viewer की toolbar में zoom या page number चुनें। बहुत छोटा हो तो Windows Magnifier भी उपयोग कर सकते हैं।",
+          "mouse": "ऊपर zoom + और page field इस्तेमाल करें।",
+          "expected": "पन्ना बड़े आकार में दिखेगा।",
+          "scene": "pdf",
+          "target": "Zoom"
+        },
+        {
+          "title": "शब्द खोजें",
+          "keys": [
+            "Ctrl",
+            "F"
+          ],
+          "instruction": "Ctrl + F दबाकर शब्द लिखें। Scanned image वाली PDF में text search उपलब्ध न भी हो।",
+          "mouse": "Find विकल्प चुनें।",
+          "expected": "Text PDF में मिले शब्द दिखेंगे।",
+          "scene": "pdf",
+          "target": "Find"
+        }
+      ],
+      "help": [
+        "pdf-password",
+        "pdf-scanned",
+        "open-with"
+      ],
+      "sources": [
+        "chrome"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "print-file",
+      "category": "Gmail और PDF",
+      "title": "Document Print करें",
+      "description": "सही printer और pages चुनें।",
+      "steps": [
+        {
+          "title": "Print dialog खोलें",
+          "keys": [
+            "Ctrl",
+            "P"
+          ],
+          "instruction": "Document सामने हो तो Ctrl + P दबाएँ।",
+          "mouse": "ऐप में File → Print चुनें।",
+          "expected": "Print settings खुलेंगी।",
+          "scene": "print",
+          "target": "Destination"
+        },
+        {
+          "title": "Printer और pages चुनें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "अपने printer का नाम चुनें। Copies, pages और preview जाँचें।",
+          "mouse": "Destination / Printer सूची में अपना printer चुनें।",
+          "expected": "सही print settings दिखेंगी।",
+          "scene": "print",
+          "target": "Printer"
+        },
+        {
+          "title": "Print भेजें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Print button चुनें। Printer में कागज़ और connection होना चाहिए।",
+          "mouse": "Print दबाएँ।",
+          "expected": "Printer काम शुरू करेगा या queue में job दिखेगी।",
+          "scene": "print",
+          "target": "Print"
+        }
+      ],
+      "help": [
+        "printer-offline",
+        "print-blocked"
+      ],
+      "sources": [
+        "windows",
+        "chrome"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "whatsapp-link",
+      "category": "WhatsApp",
+      "title": "WhatsApp में फोन Link करें",
+      "description": "Windows app का शुरुआती setup।",
+      "steps": [
+        {
+          "title": "WhatsApp खोलें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows दबाएँ, WhatsApp लिखें और ऐप खोलें।",
+          "mouse": "WhatsApp ऐप खोलें।",
+          "expected": "Setup या QR screen दिखेगी।",
+          "scene": "whatsapp-link",
+          "target": "Get started"
+        },
+        {
+          "title": "फोन में Linked devices खोलें",
+          "keys": [],
+          "instruction": "अपने फोन पर WhatsApp खोलें। Android में menu, या iPhone में Settings से Linked devices खोलें।",
+          "mouse": "Linked devices → Link a device चुनें।",
+          "expected": "फोन QR scan करने के लिए तैयार होगा।",
+          "scene": "phone",
+          "target": "Linked devices"
+        },
+        {
+          "title": "PC का QR scan करें",
+          "keys": [],
+          "instruction": "फोन से अपने PC पर WhatsApp वाला QR scan करें। Chats sync होने दें।",
+          "mouse": "फोन का camera PC के QR की ओर रखें।",
+          "expected": "Windows app में chats दिखेंगी।",
+          "scene": "whatsapp-link",
+          "target": "QR code"
+        }
+      ],
+      "help": [
+        "qr-expired",
+        "offline"
+      ],
+      "sources": [
+        "whatsapp"
+      ],
+      "tags": "qr login setup",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "whatsapp-message",
+      "category": "WhatsApp",
+      "title": "किसी को Message भेजें",
+      "description": "सही contact चुनें और संदेश लिखें।",
+      "steps": [
+        {
+          "title": "सही chat खोलें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "Search या chat list से व्यक्ति का नाम ढूँढें। ऊपर नाम जाँचकर chat खोलें।",
+          "mouse": "Search field में नाम लिखें और सही chat चुनें।",
+          "expected": "व्यक्ति का नाम ऊपर दिखेगा।",
+          "scene": "whatsapp",
+          "target": "Search"
+        },
+        {
+          "title": "संदेश लिखें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "Message field पर जाएँ और अपना संदेश लिखें।",
+          "mouse": "Type a message वाले field में लिखें।",
+          "expected": "लिखा हुआ संदेश दिखेगा।",
+          "scene": "whatsapp",
+          "target": "Type a message"
+        },
+        {
+          "title": "भेजें",
+          "keys": [
+            "Enter"
+          ],
+          "instruction": "व्यक्ति और संदेश जाँचें। Enter से भेजें; नई लाइन के लिए आमतौर पर Shift + Enter होता है।",
+          "mouse": "Send button दबाएँ।",
+          "expected": "संदेश chat में दिखेगा।",
+          "scene": "whatsapp",
+          "target": "Send"
+        }
+      ],
+      "help": [
+        "whatsapp-offline"
+      ],
+      "sources": [
+        "whatsapp"
+      ],
+      "tags": "",
+      "before": "",
+      "note": "ऐप versions में button का स्थान बदल सकता है; यहाँ कोई निश्चित Tab-count नहीं माना गया है।"
+    },
+    {
+      "id": "whatsapp-file",
+      "category": "WhatsApp",
+      "title": "WhatsApp पर फाइल भेजें",
+      "description": "Document या photo attach करें।",
+      "steps": [
+        {
+          "title": "सही chat चुनें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "जिसे फाइल भेजनी है उसकी chat खोलें। ऊपर नाम जाँचें।",
+          "mouse": "सही contact चुनें।",
+          "expected": "सही व्यक्ति की chat दिखेगी।",
+          "scene": "whatsapp",
+          "target": "Contact"
+        },
+        {
+          "title": "Attach खोलें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Attach / plus button तक जाएँ। Document या Photos and videos चुनें।",
+          "mouse": "Attach / + → Document चुनें।",
+          "expected": "File picker खुलेगा।",
+          "scene": "whatsapp",
+          "target": "Attach"
+        },
+        {
+          "title": "फाइल चुनें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "File picker में इच्छित फाइल चुनें और Open दबाएँ।",
+          "mouse": "सही फाइल → Open दबाएँ।",
+          "expected": "Attachment preview दिखेगा।",
+          "scene": "open-file",
+          "target": "Open"
+        },
+        {
+          "title": "Preview देखकर Send करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "फाइल का नाम और recipient जाँचें, फिर Send दबाएँ।",
+          "mouse": "Preview में Send दबाएँ।",
+          "expected": "Upload के बाद फाइल chat में दिखेगी।",
+          "scene": "whatsapp",
+          "target": "Send"
+        }
+      ],
+      "help": [
+        "whatsapp-offline",
+        "file-missing",
+        "attachment-large"
+      ],
+      "sources": [
+        "whatsapp"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "whatsapp-call",
+      "category": "WhatsApp",
+      "title": "Voice या Video call करें",
+      "description": "Contact, microphone और camera के साथ।",
+      "steps": [
+        {
+          "title": "Contact खोलें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "WhatsApp में सही व्यक्ति की chat खोलें।",
+          "mouse": "सही chat चुनें।",
+          "expected": "Contact का नाम ऊपर दिखेगा।",
+          "scene": "whatsapp",
+          "target": "Contact"
+        },
+        {
+          "title": "Call शुरू करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Voice call या Video call button तक जाएँ और Enter दबाएँ।",
+          "mouse": "ऊपर phone या video camera button दबाएँ।",
+          "expected": "Call window या permission prompt खुलेगा।",
+          "scene": "whatsapp",
+          "target": "Video call"
+        },
+        {
+          "title": "Permission आए तो पढ़ें",
+          "keys": [],
+          "instruction": "Microphone और video के लिए camera की अनुमति केवल इस अपेक्षित WhatsApp call के लिए दें। Windows settings की जरूरत हो तो नीचे मदद देखें।",
+          "mouse": "WhatsApp के अपेक्षित permission prompt में विकल्प चुनें।",
+          "expected": "Ringing या connected call दिखेगी।",
+          "scene": "call",
+          "target": "Microphone"
+        },
+        {
+          "title": "Mute या End call चुनें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Call controls में Microphone, Camera और End call के labels देखें। संबंधित button चुनें।",
+          "mouse": "Microphone से mute; लाल phone से call समाप्त करें।",
+          "expected": "चुने हुए action की स्थिति बदलेगी।",
+          "scene": "call",
+          "target": "End call"
+        }
+      ],
+      "help": [
+        "mic-camera",
+        "no-sound",
+        "call-unavailable",
+        "whatsapp-offline"
+      ],
+      "sources": [
+        "whatsapp",
+        "permissions"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "whatsapp-share",
+      "category": "WhatsApp",
+      "title": "Video call में Screen share करें",
+      "description": "सही window चुनें और फिर sharing बंद करें।",
+      "steps": [
+        {
+          "title": "पहले video call जोड़ें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "WhatsApp में व्यक्ति की chat खोलें और video call शुरू करें। Call connect होने दें।",
+          "mouse": "Video call button दबाएँ।",
+          "expected": "जुड़ी हुई video call दिखेगी।",
+          "scene": "call",
+          "target": "Video call"
+        },
+        {
+          "title": "Share screen खोजें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Call controls में Share screen देखें। न दिखे तो More / तीन dots menu खोलें और Share screen चुनें।",
+          "mouse": "Share screen या More → Share screen दबाएँ।",
+          "expected": "Share करने के विकल्प दिखेंगे।",
+          "scene": "call",
+          "target": "Share screen"
+        },
+        {
+          "title": "कौन-सी चीज़ दिखानी है चुनें",
+          "keys": [
+            "Tab",
+            "↑ / ↓"
+          ],
+          "instruction": "एक window या पूरी screen के विकल्प आएँ तो इच्छित चीज़ चुनें। निजी messages या documents सामने न रखें।",
+          "mouse": "Window / screen preview चुनें।",
+          "expected": "चुना हुआ preview दिखेगा।",
+          "scene": "share",
+          "target": "Window"
+        },
+        {
+          "title": "Prompt पढ़कर शुरू करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "जो content सामने वाले को दिखेगा उसे जाँचें। फिर Share / Start screen sharing चुनें।",
+          "mouse": "Share या Start screen sharing दबाएँ।",
+          "expected": "Sharing चलने का indicator दिखेगा।",
+          "scene": "share",
+          "target": "Share"
+        },
+        {
+          "title": "काम पूरा हो तो Stop करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "WhatsApp call में लौटें। Stop sharing चुनें और sharing समाप्त होने की पुष्टि करें।",
+          "mouse": "Stop sharing दबाएँ।",
+          "expected": "Screen sharing बंद होगी; call जारी रह सकती है।",
+          "scene": "call",
+          "target": "Stop sharing"
+        }
+      ],
+      "help": [
+        "mic-camera",
+        "share-missing",
+        "share-warning",
+        "share-black",
+        "whatsapp-offline"
+      ],
+      "sources": [
+        "share",
+        "whatsapp"
+      ],
+      "tags": "screen sharing video call",
+      "before": "आपकी साझा की गई screen सामने वाला देख सकता है। पहले तय करें कि कौन-सी window दिखानी है।",
+      "note": "यह Windows ऐप की सामान्य प्रक्रिया है। Picker और buttons ऐप version के अनुसार अलग हो सकते हैं। इस web app से असली screen share शुरू नहीं होता।"
+    },
+    {
+      "id": "whatsapp-download",
+      "category": "WhatsApp",
+      "title": "मिली हुई फाइल सेव करें",
+      "description": "Download और Save as का उपयोग करें।",
+      "steps": [
+        {
+          "title": "फाइल वाली chat खोलें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "सही chat में attachment ढूँढें। नाम और भेजने वाला देखें।",
+          "mouse": "Attachment वाली chat खोलें।",
+          "expected": "फाइल का नाम या preview दिखेगा।",
+          "scene": "whatsapp",
+          "target": "Attachment"
+        },
+        {
+          "title": "Download / Save as चुनें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "फाइल पर Download या उसके menu में Save as देखें। उपलब्ध विकल्प ऐप version पर निर्भर करेगा।",
+          "mouse": "Download arrow या attachment menu → Save as चुनें।",
+          "expected": "Download शुरू होगी या save dialog खुलेगा।",
+          "scene": "whatsapp",
+          "target": "Download"
+        },
+        {
+          "title": "जगह देखें",
+          "keys": [
+            "Win",
+            "E"
+          ],
+          "instruction": "चुने हुए folder या Downloads में फाइल देखें।",
+          "mouse": "File Explorer में Downloads खोलें।",
+          "expected": "फाइल उपलब्ध होगी।",
+          "scene": "files",
+          "target": "Downloads"
+        }
+      ],
+      "help": [
+        "download-failed",
+        "file-missing"
+      ],
+      "sources": [
+        "whatsapp"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "word-new",
+      "category": "Word और टाइपिंग",
+      "title": "Word में नया Document बनाएँ",
+      "description": "लिखें और पहली बार सेव करें।",
+      "steps": [
+        {
+          "title": "Word खोलें",
+          "keys": [
+            "Win"
+          ],
+          "instruction": "Windows दबाएँ, Word लिखें और ऐप खोलें।",
+          "mouse": "Word ऐप खोलें।",
+          "expected": "Word की शुरुआत वाली स्क्रीन मिलेगी।",
+          "scene": "word-home",
+          "target": "Blank document"
+        },
+        {
+          "title": "Blank document चुनें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Blank document चुनें। खुले document में Ctrl + N से भी नया document बनता है।",
+          "mouse": "Blank document दबाएँ।",
+          "expected": "खाली पन्ना खुलेगा।",
+          "scene": "word",
+          "target": "Document"
+        },
+        {
+          "title": "लिखकर Save करें",
+          "keys": [
+            "Ctrl",
+            "S"
+          ],
+          "instruction": "अपना text लिखें। Ctrl + S दबाएँ। पहली बार नाम और जगह चुनें।",
+          "mouse": "File → Save as में जगह और नाम चुनें।",
+          "expected": "Document सेव होगा।",
+          "scene": "save",
+          "target": "Save"
+        }
+      ],
+      "help": [
+        "office-signin",
+        "save-permission",
+        "replace-file"
+      ],
+      "sources": [
+        "word"
+      ],
+      "tags": "",
+      "before": "Desktop Word install और उसकी उपयुक्त license की जरूरत हो सकती है।",
+      "note": ""
+    },
+    {
+      "id": "word-save",
+      "category": "Word और टाइपिंग",
+      "title": "Document सेव या PDF बनाएँ",
+      "description": "Save और Save as में फर्क समझें।",
+      "steps": [
+        {
+          "title": "वर्तमान बदलाव सेव करें",
+          "keys": [
+            "Ctrl",
+            "S"
+          ],
+          "instruction": "Ctrl + S उसी फाइल में बदलाव सेव करता है। पहली बार file location माँगी जा सकती है।",
+          "mouse": "Save button दबाएँ।",
+          "expected": "नए बदलाव सेव होंगे।",
+          "scene": "word",
+          "target": "Save"
+        },
+        {
+          "title": "अलग नाम की कॉपी बनाएँ",
+          "keys": [
+            "F12"
+          ],
+          "instruction": "Desktop Word में F12 से Save As खुल सकता है। Laptop पर Fn + F12 की जरूरत हो सकती है।",
+          "mouse": "File → Save As / Save a Copy चुनें।",
+          "expected": "नाम, जगह और type के विकल्प मिलेंगे।",
+          "scene": "save",
+          "target": "File name"
+        },
+        {
+          "title": "PDF चाहिए तो type बदलें",
+          "keys": [
+            "Tab"
+          ],
+          "instruction": "Save as type में PDF चुनें। नाम और folder जाँचकर Save / Publish चुनें।",
+          "mouse": "File type में PDF चुनकर Save दबाएँ।",
+          "expected": "अलग PDF बनेगी; editable Word file भी रखें।",
+          "scene": "save",
+          "target": "Save as type"
+        }
+      ],
+      "help": [
+        "save-permission",
+        "replace-file"
+      ],
+      "sources": [
+        "word"
+      ],
+      "tags": "pdf export docx",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "copy-text",
+      "category": "Word और टाइपिंग",
+      "title": "लिखाई Copy और Paste करें",
+      "description": "चुनी हुई लिखाई दूसरी जगह रखें।",
+      "steps": [
+        {
+          "title": "लिखाई चुनें",
+          "keys": [
+            "Shift",
+            "← / →"
+          ],
+          "instruction": "Text cursor रखें। Shift के साथ arrows से text चुनें। पूरे document के लिए Ctrl + A होता है।",
+          "mouse": "Mouse से text select करें।",
+          "expected": "चुनी हुई लिखाई highlight होगी।",
+          "scene": "word",
+          "target": "Selected text"
+        },
+        {
+          "title": "Copy करें",
+          "keys": [
+            "Ctrl",
+            "C"
+          ],
+          "instruction": "Ctrl + C दबाएँ। Move करना हो तो Ctrl + X दबाएँ।",
+          "mouse": "Right click → Copy चुनें।",
+          "expected": "चुनी हुई लिखाई clipboard में होगी।",
+          "scene": "word",
+          "target": "Copy"
+        },
+        {
+          "title": "नई जगह Paste करें",
+          "keys": [
+            "Ctrl",
+            "V"
+          ],
+          "instruction": "जहाँ लिखाई चाहिए वहाँ cursor रखें। Ctrl + V दबाएँ।",
+          "mouse": "नई जगह click → Paste करें।",
+          "expected": "लिखाई नई जगह दिखेगी।",
+          "scene": "word",
+          "target": "Paste"
+        }
+      ],
+      "help": [],
+      "sources": [
+        "windows"
+      ],
+      "tags": "clipboard cut copy paste",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "typing-language",
+      "category": "Word और टाइपिंग",
+      "title": "हिंदी / English बदलें",
+      "description": "Installed keyboard language चुनें।",
+      "steps": [
+        {
+          "title": "Input language बदलें",
+          "keys": [
+            "Win",
+            "Space"
+          ],
+          "instruction": "Windows दबाकर रखें और Space से भाषा चुनें। Windows छोड़ दें।",
+          "mouse": "Taskbar में ENG / HIN चुनें।",
+          "expected": "उपलब्ध भाषा चुन जाएगी।",
+          "scene": "language",
+          "target": "Hindi"
+        },
+        {
+          "title": "छोटा शब्द लिखकर जाँचें",
+          "keys": [],
+          "instruction": "किसी text field में छोटा शब्द लिखें। Phonetic और InScript layouts अलग तरह से काम करते हैं।",
+          "mouse": "Text field में लिखकर परिणाम देखें।",
+          "expected": "सही भाषा में लिखाई दिखेगी।",
+          "scene": "language",
+          "target": "Hindi"
+        }
+      ],
+      "help": [
+        "hindi-missing"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "hindi english input keyboard",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "undo",
+      "category": "Word और टाइपिंग",
+      "title": "गलती वापस करें",
+      "description": "Undo और Redo का उपयोग करें।",
+      "steps": [
+        {
+          "title": "पिछला बदलाव वापस करें",
+          "keys": [
+            "Ctrl",
+            "Z"
+          ],
+          "instruction": "जिस ऐप में बदलाव हुआ है, वहीं Ctrl + Z दबाएँ। कुछ actions वापस नहीं होते।",
+          "mouse": "ऐप का Undo button दबाएँ।",
+          "expected": "समर्थित आखिरी बदलाव वापस होगा।",
+          "scene": "word",
+          "target": "Undo"
+        },
+        {
+          "title": "जरूरत हो तो Redo करें",
+          "keys": [
+            "Ctrl",
+            "Y"
+          ],
+          "instruction": "Word जैसे समर्थित apps में Ctrl + Y से वापस लाया बदलाव दोहरा सकते हैं।",
+          "mouse": "Redo button दबाएँ।",
+          "expected": "बदलाव फिर लागू होगा।",
+          "scene": "word",
+          "target": "Redo"
+        }
+      ],
+      "help": [],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "windows-update",
+      "category": "मदद और रखरखाव",
+      "title": "Windows Update देखें",
+      "description": "चार्जर लगाकर update करें।",
+      "steps": [
+        {
+          "title": "Update settings खोलें",
+          "keys": [
+            "Win",
+            "I"
+          ],
+          "instruction": "Settings में Windows Update चुनें। Charger और internet जुड़े हों।",
+          "mouse": "Settings → Windows Update खोलें।",
+          "expected": "Update status दिखेगा।",
+          "scene": "settings",
+          "target": "Windows Update"
+        },
+        {
+          "title": "Updates जाँचें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "Check for updates चुनें। Download & install दिखे तो विवरण पढ़ें।",
+          "mouse": "Check for updates दबाएँ।",
+          "expected": "नई updates या up to date का संदेश मिलेगा।",
+          "scene": "update",
+          "target": "Check for updates"
+        },
+        {
+          "title": "जरूरत पर Restart करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "पहले अपना काम सेव करें। Restart required आए तो उपयुक्त समय पर Restart now चुनें।",
+          "mouse": "Restart now या Schedule restart चुनें।",
+          "expected": "Update लगकर PC दोबारा चालू होगा।",
+          "scene": "update",
+          "target": "Restart now"
+        }
+      ],
+      "help": [
+        "update-shutdown",
+        "unsaved"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    },
+    {
+      "id": "narrator",
+      "category": "मदद और रखरखाव",
+      "title": "Narrator चालू / बंद करें",
+      "description": "ज़रूरत होने पर screen reader का विकल्प।",
+      "steps": [
+        {
+          "title": "Narrator toggle करें",
+          "keys": [
+            "Ctrl",
+            "Win",
+            "Enter"
+          ],
+          "instruction": "तीनों बटन साथ दबाएँ। Shortcut enabled हो तो Narrator चालू या बंद होगा।",
+          "mouse": "Settings → Accessibility → Narrator का switch चुनें।",
+          "expected": "आवाज़ शुरू होगी या बंद होगी।",
+          "scene": "settings",
+          "target": "Narrator"
+        },
+        {
+          "title": "Shortcut काम न करे तो Settings देखें",
+          "keys": [
+            "Win",
+            "I"
+          ],
+          "instruction": "Settings में Accessibility → Narrator खोलें। यहाँ On / Off और shortcut setting मिलती है।",
+          "mouse": "Narrator settings में अपनी पसंद चुनें।",
+          "expected": "Narrator की स्थिति स्पष्ट होगी।",
+          "scene": "settings",
+          "target": "Narrator"
+        }
+      ],
+      "help": [
+        "settings-different"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": "यह वैकल्पिक सहायक तरीका है। ऐप की मुख्य सुविधा बड़ा text और magnification है।"
+    },
+    {
+      "id": "frozen",
+      "category": "मदद और रखरखाव",
+      "title": "ऐप अटक गई है",
+      "description": "पहले इंतज़ार, फिर जरूरत हो तो Task Manager।",
+      "steps": [
+        {
+          "title": "थोड़ा रुकें और ऐप बदलें",
+          "keys": [
+            "Alt",
+            "Tab"
+          ],
+          "instruction": "Download या save चल रहा हो तो पहले पूरा होने दें। Alt + Tab से जाँचें कि दूसरी ऐप चलती है या नहीं।",
+          "mouse": "Taskbar से दूसरी ऐप खोलकर देखें।",
+          "expected": "पता चलेगा केवल एक ऐप अटकी है या पूरा PC।",
+          "scene": "desktop",
+          "target": "Task view"
+        },
+        {
+          "title": "Task Manager खोलें",
+          "keys": [
+            "Ctrl",
+            "Shift",
+            "Esc"
+          ],
+          "instruction": "ऐप लगातार जवाब न दे तो Task Manager खोलें।",
+          "mouse": "Start पर right click → Task Manager चुनें।",
+          "expected": "Processes की सूची दिखेगी।",
+          "scene": "taskmanager",
+          "target": "Processes"
+        },
+        {
+          "title": "केवल अटकी हुई ऐप बंद करें",
+          "keys": [
+            "Tab",
+            "Enter"
+          ],
+          "instruction": "सही ऐप चुनें। बिना सेव किया काम खो सकता है। जरूरत हो तभी End task दबाएँ; अनजान system processes बंद न करें।",
+          "mouse": "अटकी ऐप → End task चुनें।",
+          "expected": "ऐप बंद होगी; फिर खोल सकते हैं।",
+          "scene": "taskmanager",
+          "target": "End task"
+        }
+      ],
+      "help": [
+        "unsaved",
+        "unknown"
+      ],
+      "sources": [
+        "windows"
+      ],
+      "tags": "",
+      "before": "",
+      "note": ""
+    }
+  ]
+}
